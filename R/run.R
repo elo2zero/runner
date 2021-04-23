@@ -266,7 +266,6 @@ runner.default <- function(  #nolint
     at = at,
     na_pad = na_pad
   )
-
   if (!is.null(cl) && is(cl, "cluster")) {
     answer <- parLapply(
       cl = cl,
@@ -276,7 +275,7 @@ runner.default <- function(  #nolint
     )
   } else {
     answer <- lapply(w, function(.this_window)
-      if (is.null(.this_window)) {
+      if (length(.this_window) == 0) {
         NA
       } else {
         f(.this_window, ...)

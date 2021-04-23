@@ -1,3 +1,7 @@
+# runner 0.4.1
+* fix `runner(..., na_pad)` for vectors to return `NA` when windows is incomplete.
+Other methods already consistent.
+
 # runner 0.4.0
 * defunct `type` argument in favor of `simplify`.
 * fixed error when using `runner::runner`.

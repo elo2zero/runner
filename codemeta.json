@@ -9,7 +9,7 @@
   "name": "runner: Running Operations for Vectors",
   "issueTracker": "https://github.com/gogonzo/runner/issues",
   "license": "https://spdx.org/licenses/GPL-2.0",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
